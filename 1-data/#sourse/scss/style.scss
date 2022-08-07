@@ -1,0 +1,51 @@
+@import "fonts";
+@import "reset";
+@import "mixin";
+
+//
+::before, ::after {
+  z-index: -1;
+}
+:root {
+  --container-width: 1750px;
+  --container-padding: 80px;
+  --main-container-width: 1460px;
+}
+
+// GENERAL
+
+body {
+  font-family: "Open Sans";
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+}
+
+.container-main {
+  max-width: var(--main-container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+}
+//others
+
+a {
+  color: white;
+}
+
+button {
+  background-color: Transparent;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+
+.__bold-text {
+
+}

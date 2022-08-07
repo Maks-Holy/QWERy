@@ -1,0 +1,95 @@
+.culture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+  height: 720px;
+  padding-bottom: 125px;
+}
+.culture .culture__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 40px;
+  row-gap: 30px;
+  max-width: 50%;
+}
+.culture .culture__left .__bold-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+.culture .culture__left .__bold-text .__block-hr hr {
+  width: 72px;
+  border: 1px solid #FFC178;
+}
+.culture .culture__left .__bold-text p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FBD784;
+  letter-spacing: 6px;
+}
+.culture .culture__left .culture__title {
+  max-width: 555px;
+}
+.culture .culture__left .culture__title h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87px;
+}
+.culture .culture__left .culture__text p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.culture .culture__left .culture__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.culture .culture__left .culture__link a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FBD784;
+}
+.culture .culture__right img {
+  width: 100%;
+  height: auto;
+}

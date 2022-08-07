@@ -1,0 +1,95 @@
+.relaxation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  padding-bottom: 100px;
+}
+.relaxation .relaxation__left {
+  padding-right: 75px;
+}
+.relaxation .relaxation__left img {
+  max-height: 720px;
+}
+.relaxation .relaxation__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 75px;
+  row-gap: 30px;
+  max-width: 630px;
+}
+.relaxation .relaxation__right .__bold-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+.relaxation .relaxation__right .__bold-text .__block-hr hr {
+  width: 72px;
+  border: 1px solid #FFC178;
+}
+.relaxation .relaxation__right .__bold-text p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFC178;
+  letter-spacing: 6px;
+}
+.relaxation .relaxation__right .relaxation__title {
+  max-width: 435px;
+}
+.relaxation .relaxation__right .relaxation__title h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87px;
+}
+.relaxation .relaxation__right .relaxation__text p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.relaxation .relaxation__right .relaxation__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.relaxation .relaxation__right .relaxation__link a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FBD784;
+}
